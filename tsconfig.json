@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "outDir": "dist"
+  },
+  "include": ["./index.ts", "./src", "./package.json"],
+  "exclude": ["node_modules", "build"]
+}
